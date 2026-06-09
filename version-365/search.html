@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影视搜索-国产免费视频</title>
+  <meta name="description" content="国产免费视频搜索页，支持搜索电影、电视剧、综艺、动漫、地区、年份和题材标签。">
+  <meta name="keywords" content="国产免费视频,免费在线观看,国产电影,国产电视剧,免费影院,高清视频,在线播放,免费视频网站,国产综艺,国产动漫,免费观影,影视搜索,免费电影搜索">
+  <link rel="stylesheet" href="./assets/base.css">
+  <link rel="stylesheet" href="./assets/app.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="./index.html" aria-label="国产免费视频">
+      <span class="logo-mark">▶</span>
+      <span>国产免费视频</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link " href="./index.html">首页</a>
+      <a class="nav-link " href="./categories.html">分类</a>
+      <a class="nav-link " href="./library.html">片库</a>
+      <a class="nav-link " href="./ranking.html">排行榜</a>
+      <div class="nav-menu">
+        <button class="nav-link nav-menu-button" type="button">热门分类</button>
+        <div class="nav-menu-panel">
+          <a href="./category-domestic.html">国产精选</a><a href="./category-movie.html">电影大片</a><a href="./category-series.html">热播剧集</a><a href="./category-animation.html">动漫动画</a><a href="./category-variety.html">综艺真人秀</a>
+        </div>
+      </div>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片名称、类型、地区" autocomplete="off">
+      <button type="submit" aria-label="搜索">⌕</button>
+    </form>
+    <button class="mobile-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动端导航">
+      <a class="mobile-link " href="./index.html">首页</a>
+      <a class="mobile-link " href="./categories.html">分类</a>
+      <a class="mobile-link " href="./library.html">片库</a>
+      <a class="mobile-link " href="./ranking.html">排行榜</a>
+    <form class="mobile-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+  </nav>
+</header>
+<main>
+  <section class="page-hero search-page-hero">
+    <div>
+      <p class="eyebrow">搜索</p>
+      <h1>搜索免费高清影视内容</h1>
+      <p>输入片名、类型、地区、年份或标签，快速找到想看的影片。</p>
+      <form action="./search.html" method="get" class="wide-search page-search-form">
+        <input id="searchInput" type="search" name="q" placeholder="输入关键词搜索" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="content-section">
+    <div id="searchSummary" class="search-summary">热门推荐</div>
+    <div id="searchResults" class="movie-grid compact-grid">
+      <article class="movie-card" data-title="笨贼神狗" data-region="美国" data-type="电影" data-genre="喜剧,家庭" data-year="2019" data-category="喜剧治愈">
+  <a class="poster-link" href="./movie-61.html">
+    <img src="./61.jpg" alt="笨贼神狗" loading="lazy">
+    
+    <span class="card-badge">电影</span>
+    <span class="card-year">2019</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>美国</span>
+      <span>喜剧,家庭</span>
+    </div>
+    <h3><a href="./movie-61.html">笨贼神狗</a></h3>
+    <p>三个笨贼计划偷走豪宅里的名画,却被房子里一只看似呆萌的边境牧羊犬玩弄于股掌之间。</p>
+    <div class="tag-row"><span>宠物</span><span>盗窃</span><span>搞笑</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="心动隔扇窗" data-region="西班牙" data-type="电影" data-genre="爱情/惊悚" data-year="2025" data-category="电影大片">
+  <a class="poster-link" href="./movie-62.html">
+    <img src="./62.jpg" alt="心动隔扇窗" loading="lazy">
+    
+    <span class="card-badge">电影</span>
+    <span class="card-year">2025</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>西班牙</span>
+      <span>爱情/惊悚</span>
+    </div>
+    <h3><a href="./movie-62.html">心动隔扇窗</a></h3>
+    <p>少女透过智能家居摄像头偷窥隔壁男孩,却发现他每周三深夜都会在窗边复制一场完美谋杀。</p>
+    <div class="tag-row"><span>偷窥</span><span>邻居</span><span>数字情书</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="尖叫旅社3" data-region="美国" data-type="电影" data-genre="动画,喜剧,奇幻" data-year="2018" data-category="喜剧治愈">
+  <a class="poster-link" href="./movie-63.html">
+    <img src="./63.jpg" alt="尖叫旅社3" loading="lazy">
+    
+    <span class="card-badge">电影</span>
+    <span class="card-year">2018</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>美国</span>
+      <span>动画,喜剧,奇幻</span>
+    </div>
+    <h3><a href="./movie-63.html">尖叫旅社3</a></h3>
+    <p>吸血鬼德古拉带着怪兽家族登上豪华邮轮,却对船长埃丽卡一见钟情,而埃丽卡其实奉命要炸掉这艘船。</p>
+    <div class="tag-row"><span>怪兽</span><span>度假</span><span>合家欢</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="强棒奶娃" data-region="美国" data-type="电影" data-genre="喜剧,家庭,运动" data-year="2005" data-category="喜剧治愈">
+  <a class="poster-link" href="./movie-64.html">
+    <img src="./64.jpg" alt="强棒奶娃" loading="lazy">
+    
+    <span class="card-badge">电影</span>
+    <span class="card-year">2005</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>美国</span>
+      <span>喜剧,家庭,运动</span>
+    </div>
+    <h3><a href="./movie-64.html">强棒奶娃</a></h3>
+    <p>一个拥有超强运动天赋的婴儿,被一对落魄夫妻收养,他带领一群老头击败了棒球界的“邪恶帝国”。</p>
+    <div class="tag-row"><span>婴儿</span><span>棒球</span><span>搞笑</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="幽幻怪社" data-region="日本" data-type="动画剧集" data-genre="灵异/喜剧" data-year="2025" data-category="动漫动画">
+  <a class="poster-link" href="./movie-65.html">
+    <img src="./65.jpg" alt="幽幻怪社" loading="lazy">
+    
+    <span class="card-badge">动画剧集</span>
+    <span class="card-year">2025</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>日本</span>
+      <span>灵异/喜剧</span>
+    </div>
+    <h3><a href="./movie-65.html">幽幻怪社</a></h3>
+    <p>一家濒临倒闭的除灵公司,三个不靠谱的员工和一个腹黑社长,专门接那些诡异又荒诞的委托。</p>
+    <div class="tag-row"><span>除灵师</span><span>打工人</span><span>黑色幽默</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="王之逆袭:意志的继承者" data-region="日本/韩国" data-type="动画剧集" data-genre="奇幻/战斗/冒险" data-year="2024" data-category="动作冒险">
+  <a class="poster-link" href="./movie-66.html">
+    <img src="./66.jpg" alt="王之逆袭:意志的继承者" loading="lazy">
+    
+    <span class="card-badge">动画剧集</span>
+    <span class="card-year">2024</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>日本/韩国</span>
+      <span>奇幻/战斗/冒险</span>
+    </div>
+    <h3><a href="./movie-66.html">王之逆袭:意志的继承者</a></h3>
+    <p>被驱逐的王子与丧失记忆的圣剑,一起踏上夺回王位与记忆的旅程。</p>
+    <div class="tag-row"><span>游戏改编</span><span>王道热血</span><span>剑与魔法</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="甜蜜的咒诅" data-region="泰国" data-type="剧集" data-genre="爱情,奇幻,喜剧" data-year="2025" data-category="喜剧治愈">
+  <a class="poster-link" href="./movie-67.html">
+    <img src="./67.jpg" alt="甜蜜的咒诅" loading="lazy">
+    
+    <span class="card-badge">剧集</span>
+    <span class="card-year">2025</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>泰国</span>
+      <span>爱情,奇幻,喜剧</span>
+    </div>
+    <h3><a href="./movie-67.html">甜蜜的咒诅</a></h3>
+    <p>天才甜品师受到诅咒:只要她做的甜品让人尝到幸福的味道,对方就会在一周内遭遇血光之灾。</p>
+    <div class="tag-row"><span>泰式浪漫</span><span>前世今生</span><span>甜品</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="风流间谍走天涯" data-region="香港" data-type="电影" data-genre="动作/喜剧" data-year="2024" data-category="喜剧治愈">
+  <a class="poster-link" href="./movie-68.html">
+    <img src="./68.jpg" alt="风流间谍走天涯" loading="lazy">
+    
+    <span class="card-badge">电影</span>
+    <span class="card-year">2024</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>香港</span>
+      <span>动作/喜剧</span>
+    </div>
+    <h3><a href="./movie-68.html">风流间谍走天涯</a></h3>
+    <p>1972年,一名过气的夜总会歌女被英国军情六处招募,任务是色诱并接近一名潜伏在香港的苏联特工。</p>
+    <div class="tag-row"><span>间谍</span><span>复古</span><span>70年代</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="魂魄唔齐粤语" data-region="中国香港" data-type="电影" data-genre="喜剧/奇幻/恐怖" data-year="2025" data-category="国产精选">
+  <a class="poster-link" href="./movie-69.html">
+    <img src="./69.jpg" alt="魂魄唔齐粤语" loading="lazy">
+    
+    <span class="card-badge">电影</span>
+    <span class="card-year">2025</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>中国香港</span>
+      <span>喜剧/奇幻/恐怖</span>
+    </div>
+    <h3><a href="./movie-69.html">魂魄唔齐粤语</a></h3>
+    <p>倒霉蛋阿成被一个民国女鬼附身,每天半夜被迫唱粤剧,否则就会被弹脑壳。</p>
+    <div class="tag-row"><span>粤语原声</span><span>鬼魂</span><span>附身</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="宇宙小子大电影" data-region="美国" data-type="电影" data-genre="科幻/动画/冒险/喜剧" data-year="2025" data-category="电影大片">
+  <a class="poster-link" href="./movie-70.html">
+    <img src="./70.jpg" alt="宇宙小子大电影" loading="lazy">
+    
+    <span class="card-badge">电影</span>
+    <span class="card-year">2025</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>美国</span>
+      <span>科幻/动画/冒险/喜剧</span>
+    </div>
+    <h3><a href="./movie-70.html">宇宙小子大电影</a></h3>
+    <p>一个普通中学生意外激活了爷爷留下的旧天线,把外星人全家叫来地球过暑假了。</p>
+    <div class="tag-row"><span>超级英雄</span><span>少年</span><span>宇宙</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="喵的诈骗集团" data-region="中国大陆" data-type="电影" data-genre="喜剧/犯罪" data-year="2022" data-category="国产精选">
+  <a class="poster-link" href="./movie-71.html">
+    <img src="./71.jpg" alt="喵的诈骗集团" loading="lazy">
+    
+    <span class="card-badge">电影</span>
+    <span class="card-year">2022</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>中国大陆</span>
+      <span>喜剧/犯罪</span>
+    </div>
+    <h3><a href="./movie-71.html">喵的诈骗集团</a></h3>
+    <p>一个失意程序员训练了一群流浪猫进行“卖惨碰瓷”,没想到猫咪们真的搞起了一个庞大的都市诈骗帝国。</p>
+    <div class="tag-row"><span>萌宠</span><span>诈骗</span><span>乌龙</span></div>
+  </div>
+</article>
+<article class="movie-card" data-title="让爱自由" data-region="中国台湾" data-type="电影" data-genre="剧情/爱情/家庭" data-year="2006" data-category="爱情家庭">
+  <a class="poster-link" href="./movie-72.html">
+    <img src="./72.jpg" alt="让爱自由" loading="lazy">
+    
+    <span class="card-badge">电影</span>
+    <span class="card-year">2006</span>
+  </a>
+  <div class="card-body">
+    <div class="card-meta">
+      <span>中国台湾</span>
+      <span>剧情/爱情/家庭</span>
+    </div>
+    <h3><a href="./movie-72.html">让爱自由</a></h3>
+    <p>同一个屋檐下,外婆、妈妈和女儿都在用自己的方式“让爱自由”,却差点毁掉了这个家。</p>
+    <div class="tag-row"><span>三代同堂</span><span>女性成长</span><span>情感纠葛</span></div>
+  </div>
+</article>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-logo" href="./index.html"><span class="logo-mark">▶</span><span>国产免费视频</span></a>
+      <p>精选国产电影、电视剧、综艺、动漫等高清内容，打开即可畅享舒适观影体验。</p>
+    </div>
+    <div>
+      <h2>站内导航</h2>
+      <div class="footer-links">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./library.html">片库</a>
+        <a href="./ranking.html">排行榜</a>
+      </div>
+    </div>
+    <div>
+      <h2>精选分类</h2>
+      <div class="footer-links">
+        <a href="./category-domestic.html">国产精选</a><a href="./category-movie.html">电影大片</a><a href="./category-series.html">热播剧集</a><a href="./category-animation.html">动漫动画</a><a href="./category-variety.html">综艺真人秀</a><a href="./category-suspense.html">悬疑惊悚</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产免费视频 · 高清在线观看</div>
+</footer>
+  <script src="./assets/search-index.js"></script>
+  <script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
